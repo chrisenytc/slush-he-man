@@ -1,0 +1,50 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "homepage": "https://github.com/<%= userName %>/<%= appNameSlug %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= userName %>/<%= appNameSlug %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/issues"
+  },
+  "licenses": [
+    {
+      "type": "<%= license %>",
+      "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/blob/master/LICENSE"
+    }
+  ],
+  "main": "app.js",
+  "engines": {
+      "node": ">= 0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+        "start": "./node_modules/pm2/bin/pm2 start app.js --name <%= appNameSlug %>",
+        "test": "make test"
+    },
+    "dependencies": {
+      "socket.io": "~1.0.3",
+      "underscore": "~1.6.0",
+      "colors": "~0.6.2",
+      "pm2": "~0.8.15"
+    },
+    "devDependencies": {
+        "mocha": "~1.10.0",
+        "chai": "~1.8.0"
+    },
+    "keywords": [
+        "websockets",
+        "framework",
+        "stack",
+        "modular",
+        "socket.io"
+    ]
+}
+
