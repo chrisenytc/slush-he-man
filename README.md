@@ -1,4 +1,4 @@
-# ![Slush He-Man](logo.png)
+# ![Slush He-Man](https://raw.githubusercontent.com/chrisenytc/slush-he-man/master/logo.png)
 
 > A slush generator for create he-man applications
 
