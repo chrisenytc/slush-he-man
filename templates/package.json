@@ -2,6 +2,7 @@
   "name": "<%= appNameSlug %>",
   "description": "<%= appDescription %>",
   "version": "<%= appVersion %>",
+  "private": true,
   "homepage": "https://github.com/<%= userName %>/<%= appNameSlug %>",
   "author": {
     "name": "<%= authorName %>",
@@ -33,6 +34,7 @@
       "socket.io": "~1.0.3",
       "underscore": "~1.6.0",
       "colors": "~0.6.2",
+      "redis": "~0.10.3",
       "pm2": "~0.8.15"
     },
     "devDependencies": {

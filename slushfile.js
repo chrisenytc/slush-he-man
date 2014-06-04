@@ -40,14 +40,14 @@ var defaults = (function(){
 gulp.task('default', function(done) {
     var prompts = [{
         name: 'appName',
-        message: 'What is the name of your slush generator?',
+        message: 'What is the name of your app?',
         default: defaults.appName
     }, {
         name: 'appDescription',
         message: 'What is the description?'
     }, {
         name: 'appVersion',
-        message: 'What is the version of your slush generator?',
+        message: 'What is the version of your app?',
         default: '0.1.0'
     }, {
         name: 'authorName',

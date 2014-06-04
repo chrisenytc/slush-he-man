@@ -9,6 +9,8 @@
 'use strict';
 
 module.exports = {
-    applicationName: '<%= appName %> - Development',
-    port: 8081
+    enabled: true,
+    host: 'localhost',
+    port: 6379,
+    password: ''
 };
